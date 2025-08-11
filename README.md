@@ -107,10 +107,10 @@ flutter --version  # Should be 3.6.2 or higher
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/edu_ui_assessment.git
+git clone https://github.com/abrahamemas/Edu_Ui_Assessment.git
 
 # Navigate to project directory
-cd edu_ui_assessment
+cd Edu_Ui_Assessment
 
 # Install dependencies
 flutter pub get
