@@ -123,11 +123,11 @@ class _HomeScreenState extends State<HomeScreen> {
             child: SafeArea(
               bottom: false,
               child: SingleChildScrollView(
-                physics: const BouncingScrollPhysics(),
+              physics: const BouncingScrollPhysics(),
                 padding: EdgeInsets.fromLTRB(hPad, topPadding, hPad, Spacing.s340),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
                     const HomeHeader(),
                     const SizedBox(height: Spacing.extraLarge),
                     const HomeTitle(),
@@ -145,10 +145,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       questionsCompleted: _questionsCompleted,
                       mistakesMade: _totalMistakes,
                       timeSpent: _totalTimeSpent,
-                    ),
-                  ],
+                      ),
+                    ],
+                  ),
                 ),
-              ),
             ),
           );
         },

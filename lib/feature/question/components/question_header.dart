@@ -17,16 +17,20 @@ class QuestionHeader extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(
-          subject,
-          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                color: const Color(0xFF31F797),
-                fontFamily: 'Outfit',
-                fontSize: 34,
-                fontWeight: FontWeight.w400,
-              ),
+        Expanded(
+          child: Text(
+            subject,
+            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                  color: const Color(0xFF31F797),
+                  fontFamily: 'Outfit',
+                  fontSize: 34,
+                  fontWeight: FontWeight.w400,
+                ),
+            overflow: TextOverflow.ellipsis,
+            maxLines: 1,
+          ),
         ),
-        const Spacer(),
+        const SizedBox(width: 16),
         Text(
           '#$questionNumber',
           style: Theme.of(context).textTheme.headlineSmall?.copyWith(
