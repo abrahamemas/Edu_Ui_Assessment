@@ -1,12 +1,13 @@
-# Educational Mobile iOS App - Flutter UI Assessment
+# Educational Mobile App - Flutter UI Assessment
 
-A professional Flutter application that replicates the UI design from [Dribbble](https://dribbble.com/shots/25532415-Educational-Mobile-iOS-App) with a focus on clean architecture, responsive design, and native Flutter implementation.
+A professional **cross-platform Flutter application** that replicates the UI design from [Dribbble](https://dribbble.com/shots/25532415-Educational-Mobile-iOS-App) with a focus on clean architecture, responsive design, and native Flutter implementation. **Works seamlessly on both iOS and Android platforms.**
 
 ## 🎯 Project Overview
 
 This project demonstrates advanced Flutter development skills by implementing a complete educational quiz application with:
 
 - **Pure Flutter Implementation**: No external packages used
+- **Cross-Platform Support**: iOS and Android compatibility
 - **Clean Architecture**: Professional code organization
 - **Real-time Data Synchronization**: Live updates between screens
 - **Responsive Design**: Works across various screen sizes
@@ -47,6 +48,12 @@ lib/
 - **Topic-based Practice**: Practice by specific topics
 - **Random Quiz Mode**: Mixed questions from all topics
 
+### **Cross-Platform Features**
+- **iOS Support**: Optimized for iOS devices and design patterns
+- **Android Support**: Optimized for Android devices and Material Design
+- **Platform-Specific UI**: Adaptive components for each platform
+- **Responsive Design**: Works on phones, tablets, and different screen sizes
+
 ### **UI/UX Features**
 - **Responsive Design**: Adapts to different screen sizes
 - **Dark Theme**: Professional dark color scheme
@@ -85,6 +92,7 @@ lib/
 
 - **Framework**: Flutter (Latest Stable)
 - **Language**: Dart
+- **Platforms**: iOS & Android
 - **Architecture**: Clean Architecture
 - **State Management**: Custom Stream-based system
 - **Design System**: Custom design tokens
@@ -92,10 +100,10 @@ lib/
 
 ## 📋 Requirements
 
-- Flutter SDK: ^3.6.2
-- Dart SDK: ^3.6.2
-- iOS: 12.0+
-- Android: API 21+
+- **Flutter SDK**: ^3.6.2
+- **Dart SDK**: ^3.6.2
+- **iOS**: 12.0+
+- **Android**: API 21+
 
 ## 🚀 Getting Started
 
@@ -129,6 +137,32 @@ flutter build apk
 
 # For Web
 flutter build web
+```
+
+### Platform-Specific Setup
+
+#### iOS Setup
+```bash
+# Navigate to iOS directory
+cd ios
+
+# Install iOS dependencies
+pod install
+
+# Open in Xcode (optional)
+open Runner.xcworkspace
+```
+
+#### Android Setup
+```bash
+# Navigate to Android directory
+cd android
+
+# Build APK
+flutter build apk --release
+
+# Build App Bundle
+flutter build appbundle --release
 ```
 
 ## 🎨 Design System
@@ -208,6 +242,7 @@ The project is structured for comprehensive testing:
 - **Screens**: 4 main feature screens
 - **Architecture Layers**: 3 (Domain, Data, Presentation)
 - **Custom Components**: 15+ specialized widgets
+- **Platforms**: iOS & Android
 
 ## 🎯 Interview Assessment Compliance
 
@@ -217,6 +252,7 @@ The project is structured for comprehensive testing:
 - **Responsive Design**: Works across all screen sizes
 - **UI Replication**: Faithful to Dribbble design
 - **Code Quality**: Well-structured, maintainable code
+- **Cross-Platform**: iOS and Android support
 
 ### 🏆 Technical Excellence
 - **Custom State Management**: No external state libraries
@@ -224,6 +260,7 @@ The project is structured for comprehensive testing:
 - **Memory Optimization**: Proper resource management
 - **Performance**: Optimized for smooth user experience
 - **Scalability**: Easy to extend and maintain
+- **Platform Compatibility**: Works on both iOS and Android
 
 ## 🤝 Contributing
 
@@ -239,5 +276,5 @@ Created with ❤️ using Flutter
 
 ---
 
-**Note**: This project demonstrates advanced Flutter development skills with a focus on clean architecture, performance, and user experience. It serves as a comprehensive example of professional Flutter application development.
+**Note**: This project demonstrates advanced Flutter development skills with a focus on clean architecture, performance, and user experience. It serves as a comprehensive example of professional Flutter application development with cross-platform support for both iOS and Android.
 
